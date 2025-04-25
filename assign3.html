@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML Lists: Number, Alphabet, Roman, and Unordered</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 40px;
+      padding: 30px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2em;
+      color: #1a237e;
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #3f51b5;
+    }
+
+    p {
+      color: #555;
+      margin: 10px 0;
+    }
+
+    ul, ol {
+      display: inline-block;
+      text-align: left;
+      margin: 10px 0 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Assignment 3: HTML List Types</h1>
+
+    <h2><b>Unordered List (Default - Discs)</b></h2>
+    <p>This is an unordered list with the default disc bullet point:</p>
+    <ul>
+      <li>Option A</li>
+      <li>Option B</li>
+      <li>Option C</li>
+    </ul>
+
+    <h2><b>Unordered List (Circle)</b></h2>
+    <p>This is an unordered list with circle bullet points:</p>
+    <ul style="list-style-type: circle;">
+      <li>Option A</li>
+      <li>Option B</li>
+      <li>Option C</li>
+    </ul>
+
+    <h2><b>Unordered List (Square)</b></h2>
+    <p>This is an unordered list with square bullet points:</p>
+    <ul style="list-style-type: square;">
+      <li>Option A</li>
+      <li>Option B</li>
+      <li>Option C</li>
+    </ul>
+
+    <h2><b>Unordered List (None)</b></h2>
+    <p>This is an unordered list with no bullet points:</p>
+    <ul style="list-style-type: none;">
+      <li>Option A</li>
+      <li>Option B</li>
+      <li>Option C</li>
+    </ul>
+
+    <h2><b>Ordered List (Numbered)</b></h2>
+    <p>This is an ordered list with numbers:</p>
+    <ol>
+      <li>Option A</li>
+      <li>Option B</li>
+      <li>Option C</li>
+    </ol>
+
+    <h2><b>Ordered List (Alphabetical)</b></h2>
+    <p>This is an ordered list using alphabets:</p>
+    <ol type="a">
+      <li>Option A</li>
+      <li>Option B</li>
+      <li>Option C</li>
+    </ol>
+
+    <h2><b>Ordered List (Roman Numerals)</b></h2>
+    <p>This is an ordered list using Roman numerals:</p>
+    <ol type="I">
+      <li>Option A</li>
+      <li>Option B</li>
+      <li>Option C</li>
+    </ol>
+  </div>
+
+</body>
+</html>
