@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Link Tag Demo</title>
+
+    <!-- ✅ 1. External CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ✅ 2. Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- ✅ 3. Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    
+    <!-- Some inline style to apply Google Font -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: #f0f0f0;
+            color: #444;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            padding: 25px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 700px;
+        }
+
+        h1 {
+            color: #0288d1;
+            font-size: 2.5em;
+        }
+
+        a {
+            color: #d32f2f;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 15px 0;
+            font-size: 1.3em;
+            color: #333;
+        }
+
+        li span {
+            font-size: 1.5em;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>This page demonstrates the use of the <code>&lt;link&gt;</code> tag:</p>
+        <ul>
+            <li><span>🌟</span> External CSS (check heading color)</li>
+            <li><span>🌈</span> Favicon in the browser tab</li>
+            <li><span>🔤</span> Google Fonts</li>
+            <li><span>🔍</span> Visit <a href="https://www.google.com" target="_blank">Google</a></li>
+            <li><span>📚</span> Learn from <a href="https://www.w3schools.com" target="_blank">W3Schools</a></li>
+            <li><span>🖥️</span> Practice on <a href="https://www.geeksforgeeks.org" target="_blank">GeeksforGeeks</a></li>
+            <li><span>🎥</span> Watch tutorials on <a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+        </ul>
+    </div>
+
+</body>
+</html>
+
