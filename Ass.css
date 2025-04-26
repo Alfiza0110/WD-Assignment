@@ -1,0 +1,23 @@
+
+employee, id, name, position, department, salary {
+    display: block;
+    margin: 5px 0;
+    font-family: Arial, sans-serif;
+}
+
+employee {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+id, name {
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+position, department, salary {
+    color: #34495e;
+}
